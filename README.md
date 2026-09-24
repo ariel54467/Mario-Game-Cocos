@@ -13,11 +13,6 @@ Play the deployed build here:
 https://assignment02-112006269.web.app
 
 ## Project Info
-
-- Course: Software Studio 2025 Spring
-- Assignment: Assignment 02 - Web Canvas
-- Student: Ariel Arella Sugandik
-- Student ID: 112006269
 - Engine: Cocos Creator 2.4.8
 - Build target: Web / mobile browser
 - Hosting: Firebase Hosting
@@ -113,7 +108,7 @@ finalScore = ceil(timer) * 100 + score + coin * 50 + life * 200
 
 ## Run Locally
 
-### Option 1: Run the built web version
+### Run the built web version
 
 Serve the `web-mobile` folder with any static file server:
 
@@ -134,15 +129,6 @@ http://localhost:8080
 2. Open this repository as a Cocos Creator project.
 3. Use the editor preview to test the game.
 4. Build to Web Mobile when exporting a new browser build.
-
-## Deploy
-
-This project is configured for Firebase Hosting with `web-mobile` as the public folder.
-
-```bash
-firebase login
-firebase deploy --only hosting
-```
 
 ## Notes
 
